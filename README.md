@@ -15,8 +15,6 @@
       - Spring Data JPA;
       - SQL Drive;
 ------------------------------------------
-
-X
   
   #Criando uma classe(Entidade) dentro da pasta entites:
 ------------------------------------------
