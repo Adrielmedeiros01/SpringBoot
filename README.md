@@ -1,4 +1,4 @@
-# SpringBoot:
+#SpringBoot:
 -----------------
 
 - Spring Initializr;
@@ -8,7 +8,7 @@
 - Packaging = Jar;
 - Configuration = Properties;
 
-- Depedências:
+#Depedências:
 ------------------------------------------
       - Lombok;
       - Spring Web;
@@ -16,7 +16,7 @@
       - SQL Drive;
 ------------------------------------------
   
-  #Criando uma classe(Entidade) dentro da pasta entites:
+#Criando uma classe(Entidade) dentro da pasta entites:
 ------------------------------------------
       import lombok.AllArgsConstructor;
       import lombok.Data;
