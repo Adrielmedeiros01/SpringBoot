@@ -27,22 +27,22 @@
       
       //Anotações (Sempre começam com '@'):
       
-      @Data
-      @AllArgsConstructor
+      @Data // Get e Set - automaticas;
+      @AllArgsConstructor // Cria todos os argumentos do Cosntrutor;
       @NoArgsConstructor
       @Entity //Transforma em uma tabela de banco de dados;
       
       public class Categorias {
       
       //    Sempre fazemos anotações para um atributo, antes dele.
-
-    @Id //Tranforma o primeiro atributo em uma chave primaria;
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto Increment - Escolher a estratégia para incrementar;
-    private Long id;
-
-    @Column(nullable = false) //Não permtir que a descrição é obrigatória;
-    private String descricao;
-
+      
+          @Id //Tranforma o próximo atributo em uma chave primaria;
+          @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto Increment - Escolher a estratégia para incrementar;
+          private Long id;
+      
+          @Column(nullable = false) //Define a descrição como obrigatória;
+          private String descricao;
+      
       }
 
 -----------------------------------------
