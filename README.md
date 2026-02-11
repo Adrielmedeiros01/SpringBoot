@@ -15,6 +15,7 @@
       - Spring Data JPA;
       - SQL Drive;
 ------------------------------------------
+
   
 #Criando uma classe(Entidade) dentro da pasta entites:
 ------------------------------------------
@@ -77,8 +78,6 @@
 
 
 #Sobre Banco de Dados e a Comunicação:
-
-
 -----------------------------------------
 
       spring.application.name=demo
@@ -95,9 +94,11 @@
       # Senha do banco de dados
       spring.datasource.password=123
 
-
-      
 -----------------------------------------
 
 
-
+#Rodar aplicação:
+-----------------------------------------
+      
+      - Current File;
+      - Edit Configuration;
