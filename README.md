@@ -74,3 +74,30 @@
 
 
 -----------------------------------------
+
+
+#Sobre Banco de Dados e a Comunicação:
+
+
+-----------------------------------------
+
+      spring.application.name=demo
+      
+      # Altera a estrutura da tabela caso a entidade tenha mudanças. Lembra doHibernate?
+      spring.jpa.hibernate.ddl-auto=update
+      
+      # Acesso ao banco de dados defindo o SGBD e a Base de dados. Mude o nome da sua base
+      spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/biblioteca
+      
+      # Usuário do banco de dados
+      spring.datasource.username=usuarioBiblioteca
+      
+      # Senha do banco de dados
+      spring.datasource.password=123
+
+
+      
+-----------------------------------------
+
+
+
