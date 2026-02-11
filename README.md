@@ -45,4 +45,32 @@
       
       }
 
+
+      ------------------------------------------------------------------------------------------------
+
+
+      package com.example.demo.entitees;
+      
+      
+      import jakarta.persistence.*;
+      import lombok.Data;
+      
+      @Data //Get e Set;
+      @Entity //Vira uma entidade;
+      
+      public class Produto {
+      
+          @Id
+          @GeneratedValue(strategy = GenerationType.IDENTITY)
+          private Long id;
+          @Column(nullable = false)
+          private String descricao;
+          private double preco;
+          private Long codBar;
+          @ManyToOne // Tipo de chave estrangeira (Mapeamento)
+          private Categoria categoria;
+      
+      }
+
+
 -----------------------------------------
