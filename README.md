@@ -8,6 +8,7 @@
 - Configuration = Properties;
 - Pasta Entites;
 - Pasta Repositories;
+- CRUD - CREATE READ UPDATE DELETE;
 
 
 #Depedências:
