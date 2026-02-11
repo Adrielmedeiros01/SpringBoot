@@ -7,6 +7,8 @@
 - Packaging = Jar;
 - Configuration = Properties;
 - Pasta Entites;
+- Pasta Repositories;
+
 
 #Depedências:
 ------------------------------------------
