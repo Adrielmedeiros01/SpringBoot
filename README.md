@@ -11,6 +11,9 @@
 - CRUD - CREATE READ UPDATE DELETE;
 - Dentro da pasta resources é onde você vai colocar os arquivos HTML,CSS,etc, tamplates,static;
 
+
+- Criar a classe controller
+
 #Depedências:
 ------------------------------------------
       - Lombok; -> Ajuda a escrever menos código e gerar algumas coisas automaticamente. (EX: Classes);
