@@ -13,7 +13,7 @@
 
 #Depedências:
 ------------------------------------------
-      - Lombok;
+      - Lombok; -> Ajuda a escrever menos código e gerar algumas coisas automaticamente. (EX: Classes);
       - Spring Web;
       - Spring Data JPA;
       - SQL Drive;
