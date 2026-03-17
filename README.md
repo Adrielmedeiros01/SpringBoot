@@ -10,8 +10,6 @@
 - Pasta Repositories;
 - CRUD - CREATE READ UPDATE DELETE;
 - Dentro da pasta resources é onde você vai colocar os arquivos HTML,CSS,etc, tamplates,static;
-
-
 - Criar a classe controller
 
 #Depedências:
@@ -23,7 +21,7 @@
       - Developper tools;
 ------------------------------------------
 
-  
+
 #Criando uma classe(Entidade) dentro da pasta entites:
 ------------------------------------------
      package com.example.demo.entitees;
@@ -182,5 +180,27 @@
           
       
       }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------
+
+#Aula17/03
+
+---------------------------------------
+
+      * Angular (GOOGLE) - Interessante para coisas mais robustas;
+      * Ionic - ;
+      * View - ;
+      * React (META) - lib - muito utilizado para projetos rapidos;
+
+      * coreui = Para baixar templates dessas frameWorks;
+            - https://coreui.io/
+
+      NO fronte utiliza o VSCode - No back utiliza o InteliJ;
+      
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
