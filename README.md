@@ -194,11 +194,13 @@
       * Ionic - ;
       * View - ;
       * React (META) - lib - muito utilizado para projetos rapidos;
-
-      * coreui = Para baixar templates dessas frameWorks;
+      * Coreui = Para baixar templates dessas frameWorks;
             - https://coreui.io/
+            
+      * NO fronte utiliza o VSCode - No back utiliza o InteliJ;
 
-      NO fronte utiliza o VSCode - No back utiliza o InteliJ;
+      * npm install -> no terminal - Para fazer algumas instalações;
+      * npm start - Para iniciar e vizualiazar o template;
       
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
