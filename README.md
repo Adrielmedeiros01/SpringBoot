@@ -18,6 +18,7 @@
 
 - Pasta repositories
           -> Aqui serão criadas interfaces para todas as entities;
+         -> As interfaces fornecem uma camada de abstração e encapsulamento em relação ao acesso aos dados no banco de dados.
   
 - Criar as classes controller de cada entite
 
