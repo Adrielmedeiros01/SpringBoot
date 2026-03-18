@@ -2,19 +2,25 @@
 -----------------
 
 - Spring Initializr: https://start.spring.io/
-- Maven; (Arquivo "pom.xml")
-- Criar/Fazer Download do zip(Projeto);
+- Maven = (Arquivo "pom.xml") -> O Maven automatiza o gerenciamento de dependências;
 - Packaging = Jar;
 - Configuration = Properties;
-- Pasta Entites;
-- Pasta Repositories;
+- Criar/Fazer Download do zip(Projeto);
+
+- Pasta entites (Aqui ficará as classes que representarão as tabelas de um BD relacional);
+        @Entity
+- Pasta services
+- Pasta repositories;
+
 - CRUD - CREATE READ UPDATE DELETE;
 - Dentro da pasta resources é onde você vai colocar os arquivos HTML,CSS,etc, tamplates,static;
 - Criar a classe controller
 
 #Depedências:
 ------------------------------------------
-      - Lombok; -> Ajuda a escrever menos código e gerar algumas coisas automaticamente. (EX: Classes);
+      - Lombok; -> Ajuda a escrever menos código e gerar algumas coisas automaticamente via ANOTAÇÔES. (EX: GET&SET, );
+            @Data  -> Para criar o GET&SET e outros processos (Antes da classe);
+            
       - Spring Web;
       - Spring Data JPA;
       - SQL Drive;
