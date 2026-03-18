@@ -2,7 +2,7 @@
 -----------------
 
 - Spring Initializr: https://start.spring.io/
-- Maven;
+- Maven; (Arquivo "pom.xml")
 - Criar/Fazer Download do zip(Projeto);
 - Packaging = Jar;
 - Configuration = Properties;
