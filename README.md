@@ -8,13 +8,21 @@
 - Criar/Fazer Download do zip(Projeto);
 
 - Pasta entites (Aqui ficará as classes que representarão as tabelas de um BD relacional);
-        @Entity
-- Pasta services
-- Pasta repositories;
+        @Entity //Diz que essa classe é uma entidade;
+        @Data
+  
+- Pasta services:
+        -> Aqui irá conter classes que irão encapsular toda a lógica do seu negócio. (Ex: Salvar, Buscar, Listar, Deletar)
+        -> Criar cada classe entiteService;
+        -> CRUD - CREATE READ UPDATE DELETE;
 
-- CRUD - CREATE READ UPDATE DELETE;
+- Pasta repositories;
+  
+- Criar as classes controller de cada entite
+
+
 - Dentro da pasta resources é onde você vai colocar os arquivos HTML,CSS,etc, tamplates,static;
-- Criar a classe controller
+
 
 #Depedências:
 ------------------------------------------
