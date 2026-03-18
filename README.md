@@ -16,7 +16,8 @@
         -> Criar cada classe entiteService;
         -> CRUD - CREATE READ UPDATE DELETE;
 
-- Pasta repositories;
+- Pasta repositories
+          -> Aqui serão criadas interfaces para todas as entities;
   
 - Criar as classes controller de cada entite
 
