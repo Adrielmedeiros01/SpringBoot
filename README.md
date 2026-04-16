@@ -233,7 +233,11 @@
       * Conectar beck e front = npm install axios
       🧠 Resumo simples:
                 Rotas → caminhos dentro da aplicação
-                Endpoints → URLs da API acessíveis externamente
+                Endpoints → URLs da API acessíveis externamente:
+                        Exemplos de endpoints:
+                                GET https://api.site.com/usuarios
+                                POST https://api.site.com/login
+                                DELETE https://api.site.com/usuarios/5
                 CORS → regra do navegador que controla quem pode acessar a API
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
