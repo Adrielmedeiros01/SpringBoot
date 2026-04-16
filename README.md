@@ -238,7 +238,21 @@
                                 GET https://api.site.com/usuarios
                                 POST https://api.site.com/login
                                 DELETE https://api.site.com/usuarios/5
-                CORS → regra do navegador que controla quem pode acessar a API
+                CORS → regra do navegador que controla quem pode acessar a API:
+                        Regra de segurança do navegador:
+                                Ele controla se um site pode acessar recursos de outro domínio.
+                                
+                                Exemplo do problema:
+                                Você tem:
+                                
+                                Frontend: http://localhost:3000
+                                API: http://api.meusite.com
+                                
+                                Quando o frontend tenta chamar a API, o navegador pergunta:
+                                
+                                “Esse site tem permissão para acessar essa API?”
+                                
+                                Se não tiver permissão → ❌ bloqueia a requisição.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
